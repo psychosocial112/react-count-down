@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'open sans';
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: 100vh;
+
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 100px 80px;
+}
+
+img {
+    max-width: 50vh;
+}
+h1 {
+    color: #6c63ff;
+    letter-spacing: 0.7rem;
+    font-size: 2.7rem; 
+    margin-right: -0.7rem;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.timer   {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.box .value {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #444444;
+}
+.timer .points {
+    font-size: 4rem;
+    font-weight: 600;
+    align-self: flex-end;
+    color: #444444;
+
+}
+.box .unit {
+    color: #b4b4b4;
+}
